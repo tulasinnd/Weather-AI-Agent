@@ -1,0 +1,9 @@
+venv/
+guide/
+test_run.py
+status.txt
+manual_app.py
+__pycache__/
+*.pyc
+.env
+.streamlit/secrets.toml
