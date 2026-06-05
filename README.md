@@ -152,23 +152,15 @@ Open the URL in your browser.
 
 Example queries:
 
-```text
-What is the weather in Hyderabad?
-```
+# Sample Outputs
 
-```text
-Compare the weather in Hyderabad and Chennai?
-```
+### Weather Information
 
-```text
-What is the air quality in Delhi?
-```
+![Weather Information](images/weather_info.png)
 
-```text
-Is Chennai polluted today?
-```
+### Air Quality Information
 
-The agent will automatically select the appropriate tool and return the result.
+![Air Quality Information](images/air_info.png)
 
 
 ## Learning Outcome
