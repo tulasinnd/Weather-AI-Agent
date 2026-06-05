@@ -53,7 +53,6 @@ The agent has access to both the Weather Tool and Air Quality Tool.
 
 When the user enters a question through the Streamlit interface, the agent is invoked and decides how to answer the request.
 
----
 
 ### What Happens When agent.invoke() Runs?
 
@@ -102,7 +101,6 @@ Download and install Ollama from:
 
 https://ollama.com
 
-
 ### Step 2: Download the (LLM)Model
 
 Open a terminal and run:
@@ -111,17 +109,15 @@ Open a terminal and run:
 ollama pull qwen3:4b
 ```
 
-
 ### Step 3: Start Ollama
 
-Make sure Ollama is running.
+Since we choose the LLM model to be locally without API call, make sure Ollama is running in the background
 
 You can verify the model is available:
 
 ```bash
 ollama list
 ```
-
 
 ### Step 4: Install Project Dependencies
 
@@ -137,13 +133,11 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-
 ### Step 5: Run the Streamlit Application
 
 ```bash
 streamlit run app.py
 ```
-
 
 ### Step 6: Open the Application
 
@@ -152,9 +146,7 @@ Streamlit will display a local URL similar to:
 ```text
 http://localhost:8501
 ```
-
 Open the URL in your browser.
-
 
 ### Step 7: Ask Questions
 
@@ -162,6 +154,10 @@ Example queries:
 
 ```text
 What is the weather in Hyderabad?
+```
+
+```text
+Compare the weather in Hyderabad and Chennai?
 ```
 
 ```text
